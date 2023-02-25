@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Group Axis - Second Assignment</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Icon -->
+    <link rel="icon" href="tree project images/icon.png">
+
+    <!-- JS -->
+    <script src="https://code.jquery.com/jquery-3.6.1.js"
+     integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+
+    <!--  Font  -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+          integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="charts/histogram/style.css">
+    <link rel="stylesheet" href="scratch_1.css">
+    <link rel="stylesheet" href="scratch_2.css">
+    <link rel="stylesheet" href="static/css/custom_style.css">
+
+    <!--D3.js -->
+    <script src="https://d3js.org/d3.v6.js"></script>
+    <script src="https://d3js.org/d3-scale-chromatic.v1.js"></script>
+
+
+</head>
+
+<body class="body">
+
+<div id="navigation"></div>
+<script src="static/js/top_buttons.js"></script>
+
+<div class="w3-main, AssignPageContent">
+
+    <header class="w3-container, AssignTitle">
+        <h1><b>Second Assignment</b></h1>
+    </header>
+    <br>
+
+    <div class="w3-row-padding w3-margin-bottom, AssignTasks">
+
+        <!---------------------------------------------------------------------------------------->
+        <br>
+        <h2><b>Histogram of Tree Size Distributions</b></h2>
+        <h4>
+            The main tree species found in Trento's municipality and their size distributions.<br>
+        </h4>
+
+        <select id="metric"></select>
+        <div class="taskContainer" id="a2_v1"></div>
+        <script src="charts/histogram/main.js"></script>
+
+        <hr>
+        <br>
+
+        <!---------------------------------------------------------------------------------------->
+        <h2><b>Tree Size Distribution Using Boxplot</b></h2>
+        <h4>
+            The box plots used to display the size distributions of the top tree species in Trento's municipality <br>provide information on minima, maxima, and means as well as the spread of the tree size.
+        </h4>
+
+        <div class="taskContainer" id="a2_v2"></div>
+        <script src="Deniz/boxplot.js"></script>
+
+        <hr>
+        <br>
+
+        <!---------------------------------------------------------------------------------------->
+        <h2><b>Relationship between Tree Size and CO<sup>2</sup> Absorbing Volume</b></h2>
+        <h4>
+            A scatter plot showing the relationship between the size of all tree types present in the Trento municipality on the X-axis and CO<sup>2</sup> emission on the Y-axis. 
+        </h4>
+
+        <div class="taskContainer" id="a2_v3"></div>
+        <script src="amir/scatter.js"></script>
+
+        <hr>
+        <br>
+
+        <!---------------------------------------------------------------------------------------->
+        <h2><b> Top Six Tree Type Size and CO<sup>2</sup> Storage Capacity</b></h2>
+        <h4>
+            Scatter plots showing the relationship between the top 6 tree kinds' X-axis values for tree size and Y-axis values for <br>carbon dioxide storage.
+        </h4>
+
+        <div class="taskContainer" id="a2_v4" ></div>
+        <script src="arnaud/a2-v4-scatter_mult.js"></script>
+
+        <hr>
+        <br>
+
+        <!---------------------------------------------------------------------------------------->
+        <h2><b>Canopy size, tree size, and CO<sup>2</sup> capturing capacity</b></h2>
+        <h4>
+            A bubble graphic that groups the top 6 tree kinds according to the association <br> between tree size (in meters) on the X-axis and CO2 collecting capability (in kilograms) on the Y-axis.<br> Each tree's canopy size is represented by the size of the bubble, and the color corresponds to the type of tree.
+        </h4>
+        <div class="taskContainer" id="a2_v5"></div>
+        <script src="clara/bubble chart/bubblechart.js"></script>
+    
+    </div>
+  
+
+</div>
+
+
+
+</body>
+
+</html>

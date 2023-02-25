@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Group Axis - Fourth Assignment</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Icon -->
+    <link rel="icon" href="tree project images/icon.png">
+
+    <!-- JS -->
+    <script src="https://code.jquery.com/jquery-3.6.1.js"
+     integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+
+    <!--  Font  -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+          integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="static/css/custom_style.css">
+    <link rel="stylesheet" href="scratch_1.css">
+    <link rel="stylesheet" href="scratch_2.css">
+
+    <!--D3.js -->
+    <script src="https://d3js.org/d3.v6.js"></script>
+    <script src="https://d3js.org/d3-scale-chromatic.v1.js"></script>
+
+
+</head>
+
+<body class="body">
+
+<div id="navigation"></div>
+<script src="static/js/top_buttons.js"></script>
+
+<div class="w3-main, AssignPageContent">
+
+    <header class="w3-container, AssignTitle">
+        <h1><b>Fourth Assignment</b></h1>
+    </header>
+    <br>
+
+    <div class="w3-row-padding w3-margin-bottom, secondAssignTasks">
+
+        <!---------------------------------------------------------------------------------------->
+        <br>
+        <h2><b>Line Chart of Temperatures over a year</b></h2>
+        <h4>
+            A visualization of Trento's temperature's highest, lowest and mean temperatures for each month of 7 given years.<br>
+        </h4>
+
+        <div class="taskContainer" id="a4_v1"></div>
+        <script src="./clara/line chart/linechart.js"></script>
+
+        <hr>
+        <br>
+
+        <!---------------------------------------------------------------------------------------->
+        <h2><b>Radarchart of Temperatures over the different month</b></h2>
+        <h4>
+            Visualization of Trento's temperature's means of each month for 7 given years represented around a cyclic circle.
+        </h4>
+
+        <div class="taskContainer" id="a4_v2"></div>
+        <script src="./amir/a4_radarchart.js"></script>
+
+        <hr>
+        <br>
+
+        <!---------------------------------------------------------------------------------------->
+        <h2><b>Ridgeline of Temperatures distributions over each month</b></h2>
+        <h4>
+            A display of the distribution of temperatures over the months of a given year.
+            <br>
+
+            I chose to display the ridge lines vertically to utilize better the space on screen. When displaying it horizontally
+            it was looking a bit flat so swapping the axes was a way to emphasize better the heights of the ridges.
+        </h4>
+
+        <div class="taskContainer" id="a4_v3"></div>
+        <script src="./charts/ridgeline/main.js"></script>
+
+        <hr>
+        <br>
+    
+    </div>
+  
+
+</div>
+
+
+
+</body>
+
+</html>

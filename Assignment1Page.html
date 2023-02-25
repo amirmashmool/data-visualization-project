@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Group Axis - First Assignment</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Icon -->
+    <link rel="icon" href="tree project images/icon.png">
+
+    <!-- JS -->
+    <script src="https://code.jquery.com/jquery-3.6.1.js"
+            integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+
+    <!--  Font  -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+          integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="scratch_1.css">
+    <link rel="stylesheet" href="scratch_2.css">
+    <link rel="stylesheet" href="clara/top 50 barchart/barchart_reduced.css">
+    <link rel="stylesheet" href="static/css/custom_style.css">
+
+    <!--D3.js -->
+    <script src="https://d3js.org/d3.v4.js"></script>
+    <script src="https://d3js.org/d3-scale-chromatic.v1.js"></script>
+
+
+</head>
+
+<body class="body">
+
+<div id="navigation"></div>
+<script src="static/js/top_buttons.js"></script>
+
+
+<div class="w3-main, AssignPageContent">
+
+
+    <header class="w3-container, AssignTitle">
+        <h1><b>First Assignment</b></h1>
+    </header>
+    <br>
+
+    <div class="w3-row-padding w3-margin-bottom, AssignTasks">
+
+        <!---------------------------------------------------------------------------------------->
+        <br>
+        <h2><b>Simple Bar Chart</b></h2>
+        <h4>
+            This plot uses a straightforward bar chart to show how common the top fifty tree species are in the Trento municipality.<br>
+        </h4>
+
+        <div class="taskContainer" id="a1_v1">
+            <div id="tooltip" class="hidden"></div>
+            <div id="other"></div>
+        </div>
+        <script src="clara/top 50 barchart/barchart_reduced.js"></script>
+
+        <hr>
+        <br>
+
+        <!---------------------------------------------------------------------------------------->
+        <h2><b>Stacked Bar Chart</b></h2>
+        <h4>
+            Similar to the previous graphic, this one displays the prevalence of the top five tree species in Trento Municipality <br> throughout the city's twelve different neighborhoods.
+        </h4>
+
+        <div class="taskContainer" id="a1_v2"></div>
+        <script src="clara/stacked barchart/stacked_barchart.js"></script>
+
+        <hr>
+        <br>
+
+        <!---------------------------------------------------------------------------------------->
+        <h2><b>Stacked Bar Chart with Small Multiples</b></h2>
+        <h4>
+            This plot is a stacked bar chart that is separated into small multiples, and in the right-most part,<br> you can find the total number of that special tree species in the related area.
+        </h4>
+        <div class="taskContainer" id="a1_v3"></div>
+        <script src="arnaud/a1-v3-stacked_tot.js"></script>
+
+        <hr>
+        <br>
+
+        <!---------------------------------------------------------------------------------------->
+        <h2><b>Stacked Bar Chart 100%</b></h2>
+        <h4>
+            This stacked graphic shows the top five tree species along with the remaining tree species as a percentage of the total.
+        </h4>
+
+        <div class="taskContainer" id="a1_v4" ></div>
+        <script src="arnaud/a1-v4-stacked_perc.js"></script>
+
+        <hr>
+        <br>
+
+        <!---------------------------------------------------------------------------------------->
+        <h2><b>Waffle Chart</b></h2>
+        <h4>
+            The waffle chart shows the contribution of each tree species composing parts of a whole in the 12 different regions of the Trento.
+        </h4>
+        <div id="a1_v5"></div>
+        <script src="charts/waffle/main.js"></script>
+    </div>
+
+    <br>
+    <br>
+
+
+</div>
+
+
+
+</body>
+
+</html>

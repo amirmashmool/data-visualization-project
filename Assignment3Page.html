@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Group Axis - Third Assignment</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Icon -->
+    <link rel="icon" href="tree project images/icon.png">
+
+    <!-- JS -->
+    <script src="https://code.jquery.com/jquery-3.6.1.js"
+     integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+
+    <!--  Font  -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+          integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="static/css/custom_style.css">
+    <link rel="stylesheet" href="scratch_1.css">
+    <link rel="stylesheet" href="scratch_2.css">
+
+    <!--D3.js -->
+    <script src="https://d3js.org/d3.v6.js"></script>
+    <script src="https://d3js.org/d3-scale-chromatic.v1.js"></script>
+
+
+</head>
+
+<body class="body">
+
+<div id="navigation"></div>
+<script src="static/js/top_buttons.js"></script>
+
+<div class="w3-main, AssignPageContent">
+
+    <header class="w3-container, AssignTitle">
+        <h1><b>Third Assignment</b></h1>
+    </header>
+    <br>
+
+    <div class="w3-row-padding w3-margin-bottom, AssignTasks">
+
+        <!---------------------------------------------------------------------------------------->
+        <br>
+        <h2><b>Choropleth map of tree abundances</b></h2>
+        <h4>
+            A visualization of how densly the different communes of Trento are.<br>
+        </h4>
+
+        <div class="taskContainer" id="a3_v1"></div>
+        <script src="arnaud/a3-v1.js"></script>
+
+        <hr>
+        <br>
+
+        <!---------------------------------------------------------------------------------------->
+        <h2><b>Choropleth map of tree denisty</b></h2>
+        <h4>
+            A visualization of how densly the different communes are based on the canopy cover of trees instead of just the amount.
+        </h4>
+
+        <div class="taskContainer" id="a3_v2"></div>
+        <script src="arnaud/a3-v2.js"></script>
+
+        <hr>
+        <br>
+
+        <!---------------------------------------------------------------------------------------->
+        <h2><b>Choropleth map of oxygen production</b></h2>
+        <h4>
+            A visualization of how much oxygen each commune produces compared to others..
+        </h4>
+
+        <div class="taskContainer" id="a3_v3"></div>
+        <script src="arnaud/a3-v3.js"></script>
+
+        <hr>
+        <br>
+
+        <!---------------------------------------------------------------------------------------->
+        <h2><b>Dot density map</b></h2>
+        <h4>
+            Plot of the tree positions in Trento with the density of dots visualizing the density of trees.
+        </h4>
+
+        <div class="taskContainer" id="a3_v4" ></div>
+        <script src="arnaud/a3-v4.js"></script>
+
+        <hr>
+        <br>
+
+        <!---------------------------------------------------------------------------------------->
+        <h2><b>Dot density map with tree species colored</b></h2>
+        <h4>
+            Plot of the top 10 tree species in Trento represented as dots to display the density.
+        </h4>
+        <div class="taskContainer" id="a3_v5"></div>
+        <script src="arnaud/a3-v5.js"></script>
+
+        <hr>
+        <br>
+
+        <!---------------------------------------------------------------------------------------->
+        <!--
+        <h2><b>Bonus: Cartogram</b></h2>
+        <h4>
+            Cartogram of oxygen production (or other measure) per commune.
+        </h4>
+        <div class="taskContainer" id="a3_vb"></div>
+        <script src=""></script>
+        -->
+    
+    </div>
+  
+
+</div>
+
+
+
+</body>
+
+</html>
