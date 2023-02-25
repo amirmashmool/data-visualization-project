@@ -1,0 +1,44 @@
+.bar{
+	fill: rgb(32, 128, 0);
+}
+.highlight{
+	fill:rgb(13, 66, 3)
+}
+#tooltip{
+	position: absolute;
+	width: 150px;
+	height: auto;
+	padding: 10px;
+	background-color: rgb(185, 230, 171);
+	font-size:small;
+	border-radius: 10px;
+}
+
+.assignment-heading {
+
+	position: relative;
+	align-items: center;
+	text-align: center;
+  }
+
+#other{
+	position: relative;
+	right: 400px ;
+	top: 200px;
+	width: 80px;
+	height: 80px;
+	padding: 10px;
+	background-color: rgb(185, 230, 171);
+	font-size:small;
+	border-radius: 10px;
+}
+
+#tooltip.hidden{
+	display: none;
+}
+#tooltip p{
+	margin: 0;
+	font-family: sans-serif;
+	font-size: 16px;
+	line-height: 20px;
+}

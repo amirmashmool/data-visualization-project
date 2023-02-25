@@ -1,0 +1,27 @@
+body {
+  font: 18px Arial;
+}
+
+p {
+  margin: 0;
+}
+#waffle {
+  margin-bottom: 30px;
+}
+
+#legend {
+  font: 13px Arial;
+}
+
+
+svg{
+
+  margin: 10px 10px 0px 10px;
+}
+
+.assignment-heading {
+
+	position: relative;
+	align-items: center;
+	text-align: center;
+  }
